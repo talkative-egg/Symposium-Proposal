@@ -1,0 +1,27 @@
+html{
+    color: #1c4587;
+    font-family: "Lora", serif;
+}
+
+.introduction{
+    margin-left: 20px;
+    width: 50vw;
+    line-height: 1.2;
+}
+
+.introduction #page-title{
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+.introduction #sub-title{
+    margin-top: 0px;
+    margin-bottom: 5px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.introduction #display-text1{
+    margin-top: 0px;
+    font-size: 15px;
+}

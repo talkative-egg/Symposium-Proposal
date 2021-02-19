@@ -1,15 +1,40 @@
 html{
     color: #1c4587;
     font-family: "Lora", serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    top: 0px;
+    margin: 0px;
+    margin-top: -15px;
+    padding: 0px;
+}
+
+.top-container{
+    background-color: #fffdd0;
+    width: 100vw;
+    margin: 0px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
 }
 
 .introduction{
-    margin-left: 20px;
+    padding-left: 20px;
     width: 50vw;
     line-height: 1.2;
 }
 
+@media (max-width: 700px){
+    .introduction{
+        width: 100vw;
+    }
+}
+
 .introduction #page-title{
+    padding-top: 20px;
     margin-bottom: 5px;
     font-size: 20px;
 }
@@ -23,5 +48,6 @@ html{
 
 .introduction #display-text1{
     margin-top: 0px;
+    padding-bottom: 30px;
     font-size: 15px;
 }

@@ -22,6 +22,7 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .introduction{
@@ -34,13 +35,25 @@ body{
 }
 
 .top-container .logo{
-    width: 500;
-    height: 500;
+    width: 500px;
+    height: 500px;
 }
 
-@media (max-width: 700px){
+@media (max-width: 1200px){
+    .top-container .logo{
+        margin-top: 80px;
+        width: 300px;
+        height: 300px;
+    }
+}
+
+@media (max-width: 800px){
     .introduction{
-        width: 100vw;
+        width: 90vw;
+    }
+
+    .top-container .image-container{
+        display: none;
     }
 }
 
